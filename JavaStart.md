@@ -18,8 +18,8 @@ chcp 936
 
 #### 字符编码问题
 
--在NotePad++等编辑器中，修改源文件的字符编码
--在使用javac命令式，可以指定源文件的字符编码
+- 在NotePad++等编辑器中，修改源文件的字符编码
+- 在使用javac命令式，可以指定源文件的字符编码
 ```shell
 javac -encoding utf-8 Review01.java
 ```
