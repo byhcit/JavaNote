@@ -31,6 +31,32 @@ javac -encoding utf-8 Review01.java
 javadoc -d mydoc -author -version HelloWorld.java
 ```
 
+#### Java 其他修饰符关键字
+* native
+* strictfp(strict float point):精确浮点数，修饰类、方法、变量
+* transient:修饰变量，在对象序列化过程中，忽略序列化此变量
+* volatile:
+  - 保证不同线程之间对共享变量操作的可见性
+  - 通过禁止编译器、CPU指令重排序和部分happens-before规则解决有效性
+* assert:断言，false则抛出异常
+* const
+* goto
+
+#### Java 中变量的数据类型
+- 基本数据类型：
+  * 整数类型：
+      定义long类型的变量，值以'L'或'l'结尾作为后缀，Java的整形常量默认为int型
+  * 浮点数类型
+  * 字符类型
+  * 布尔类型
+- 引用数据类型
+  * 类（class）
+  * 接口（interface）
+  * 数组（[]）
+  * 枚举（enum)
+  * 注解（@interface）
+  * 记录（record）
+
 #### [a,b]范围内的随机整数
 
 ```java
