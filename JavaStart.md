@@ -45,8 +45,15 @@ javadoc -d mydoc -author -version HelloWorld.java
 #### Java 中变量的数据类型
 - 基本数据类型：
   * 整数类型：
-      定义long类型的变量，值以'L'或'l'结尾作为后缀，Java的整形常量默认为int型
-  * 浮点数类型
+      定义long类型的变量，值以'L'或'l'结尾作为后缀，Java的整型常量默认为int型
+  * 浮点数类型：
+      定义float类型的变量，赋值时以'F'或'f'作为后缀，Java的浮点型变量默认为double型 
+    指数：a^n a为底数，n为指数，n个a相乘  
+    尾数：  
+     1. 指自然数的末位（个位、最后一位）数字
+     2. 指有理数之中浮点数位于小数点后面的数
+
+    [单精度浮点数(float32)存储与表示方式](https://zhuanlan.zhihu.com/p/632347955)
   * 字符类型
   * 布尔类型
 - 引用数据类型
